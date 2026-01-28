@@ -10,11 +10,20 @@
     "build": "tsc"
   },
   "keywords": [
+    "ai",
+    "openai",
+    "gpt",
     "database",
     "migration",
     "sql",
     "prisma",
-    "cli"
+    "drizzle",
+    "knex",
+    "developer-tools",
+    "cli",
+    "automation",
+    "typescript",
+    "orm"
   ],
   "license": "MIT",
   "dependencies": {

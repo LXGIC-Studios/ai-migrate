@@ -1,5 +1,11 @@
 # ai-migrate
 
+[![npm version](https://img.shields.io/npm/v/ai-migrate.svg)](https://www.npmjs.com/package/ai-migrate)
+[![npm downloads](https://img.shields.io/npm/dm/ai-migrate.svg)](https://www.npmjs.com/package/ai-migrate)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+AI-powered database migration generator. Turn ORM schemas into SQL migration files.
+
 Point it at your ORM schema, get SQL migration files. Supports Prisma, Drizzle, TypeORM, and Sequelize.
 
 ## Install
