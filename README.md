@@ -3,6 +3,9 @@
 [![npm version](https://img.shields.io/npm/v/ai-migrate.svg)](https://www.npmjs.com/package/ai-migrate)
 [![npm downloads](https://img.shields.io/npm/dm/ai-migrate.svg)](https://www.npmjs.com/package/ai-migrate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/lxgic-studios/ai-migrate)](https://github.com/lxgic-studios/ai-migrate/stargazers)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)](https://www.typescriptlang.org/)
+
 
 AI-powered database migration generator. Turn ORM schemas into SQL migration files.
 
