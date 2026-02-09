@@ -1,0 +1,46 @@
+{
+  "name": "@lxgicstudios/ai-migrate",
+  "version": "1.0.0",
+  "description": "Generate database migration SQL from schema diffs. Compare SQL schema files and produce ALTER TABLE statements for column changes, type changes, and index updates.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-migrate": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "database-migration",
+    "sql",
+    "schema-diff",
+    "alter-table",
+    "migration-generator",
+    "postgres",
+    "mysql",
+    "sqlite",
+    "rollback",
+    "cli",
+    "devops",
+    "database",
+    "sql-migration",
+    "schema-compare"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/ai-migrate"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
