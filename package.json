@@ -31,7 +31,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxgicstudios/ai-migrate"
+    "url": "git+https://github.com/LXGIC-Studios/ai-migrate.git"
   },
   "engines": {
     "node": ">=18"
@@ -42,5 +42,6 @@
   "devDependencies": {
     "@types/node": "^25.2.2",
     "typescript": "^5.9.3"
-  }
+  },
+  "homepage": "https://github.com/LXGIC-Studios/ai-migrate#readme"
 }
