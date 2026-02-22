@@ -43,5 +43,12 @@
     "@types/node": "^25.2.2",
     "typescript": "^5.9.3"
   },
-  "homepage": "https://github.com/LXGIC-Studios/ai-migrate#readme"
+  "homepage": "https://github.com/LXGIC-Studios/ai-migrate#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "bugs": {
+    "url": "https://github.com/LXGIC-Studios/ai-migrate/issues"
+  }
 }
