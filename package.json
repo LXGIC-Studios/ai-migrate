@@ -7,6 +7,9 @@
   "bin": {
     "ai-migrate": "dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
@@ -29,26 +32,27 @@
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
+  "homepage": "https://github.com/LXGIC-Studios/ai-migrate#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LXGIC-Studios/ai-migrate.git"
   },
-  "engines": {
-    "node": ">=18"
+  "bugs": {
+    "url": "https://github.com/LXGIC-Studios/ai-migrate/issues"
   },
-  "files": [
-    "dist"
-  ],
-  "devDependencies": {
-    "@types/node": "^25.2.2",
-    "typescript": "^5.9.3"
-  },
-  "homepage": "https://github.com/LXGIC-Studios/ai-migrate#readme",
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "bugs": {
-    "url": "https://github.com/LXGIC-Studios/ai-migrate/issues"
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
   }
 }
