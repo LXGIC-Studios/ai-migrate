@@ -1,116 +1,125 @@
-# ai-migrate
+## 📄 License
 
-[![npm version](https://img.shields.io/npm/v/@lxgicstudios/ai-migrate.svg)](https://www.npmjs.com/package/@lxgicstudios/ai-migrate)
-[![npm downloads](https://img.shields.io/npm/dm/@lxgicstudios/ai-migrate.svg)](https://www.npmjs.com/package/@lxgicstudios/ai-migrate)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+MIT License - see [LICENSE](LICENSE) file for details.
+## 🏷️ Badges
 
-Generate database migration SQL from schema diffs. Compare SQL schema files and produce ALTER TABLE statements automatically.
+![npm](https://img.shields.io/npm/v/ai-migrate)
+![Node.js](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)
+![License](https://img.shields.io/npm/l/ai-migrate)
+![TypeScript](https://img.shields.io/badge/typescript-%3E%3D4.0-blue)
 
-## What it does
+# Database migration generation and management utilities
 
-Point it at two SQL schema files (old vs new), and it spits out the migration SQL you need. No more writing ALTER TABLE statements by hand.
-
-- Detects column additions, removals, and type changes
-- Generates ALTER TABLE, ADD COLUMN, DROP COLUMN statements
-- Supports PostgreSQL, MySQL, and SQLite syntax
-- Produces rollback migrations automatically
-- Zero external dependencies
-
-## Install
-
-```bash
-npx @lxgicstudios/ai-migrate
-```
-
-Or install globally:
-
-```bash
-npm install -g @lxgicstudios/ai-migrate
-```
-
+Database migration generator. Creates schema migrations with rollback and version control.
 ## Usage
 
+```javascript
+// Import the package
+const migrate = require('ai-migrate');
+
+// Basic usage example
+migrate.main();
+```
+
+## Examples
+
+See the `examples/` directory for more detailed usage examples.
+
+## Installation
+
 ```bash
-# Compare two schema files
-npx @lxgicstudios/ai-migrate --from schema-old.sql --to schema-new.sql
-
-# Output to file
-npx @lxgicstudios/ai-migrate --from old.sql --to new.sql --output migration.sql
-
-# Generate rollback too
-npx @lxgicstudios/ai-migrate --from old.sql --to new.sql --rollback
-
-# Specify dialect
-npx @lxgicstudios/ai-migrate --from old.sql --to new.sql --dialect postgres
+npm install ai-migrate
 ```
 
-## Options
+[![npm version](https://badge.fury.io/js/ai-migrate.svg)](https://badge.fury.io/js/ai-migrate)
 
-| Option | Description | Default |
-|--------|-------------|---------|
-| `--from` | Old schema file | Required |
-| `--to` | New schema file | Required |
-| `--output` | Output migration file | stdout |
-| `--rollback` | Generate rollback migration | false |
-| `--dialect` | SQL dialect (postgres, mysql, sqlite) | postgres |
-| `--dry-run` | Preview without writing | false |
 
-## Example
+[![
 
-**Old schema (v1.sql):**
-```sql
-CREATE TABLE users (
-  id SERIAL PRIMARY KEY,
-  email VARCHAR(255) NOT NULL
-);
-```
 
-**New schema (v2.sql):**
-```sql
-CREATE TABLE users (
-  id SERIAL PRIMARY KEY,
-  email VARCHAR(255) NOT NULL,
-  name VARCHAR(100),
-  created_at TIMESTAMP DEFAULT NOW()
-);
-```
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
 
-**Output:**
-```sql
--- Migration: v1 -> v2
-ALTER TABLE users ADD COLUMN name VARCHAR(100);
-ALTER TABLE users ADD COLUMN created_at TIMESTAMP DEFAULT NOW();
-```
+ like this? We have 100+ on our  [github.com/lxgicstudios](https://github.com/lxgicstudios)
 
-## Supported Changes
 
-- ADD COLUMN
-- DROP COLUMN
-- ALTER COLUMN type
-- ADD/DROP INDEX
-- ADD/DROP CONSTRAINT
-- RENAME COLUMN (when detectable)
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
 
-## FAQ
+ like this? We have 100+ on our  github.com/lxgicstudios
 
-**Does it handle foreign keys?**
-Yes. It detects FK constraints and orders DROP/ADD statements correctly to avoid constraint violations.
 
-**Can I use it in CI/CD?**
-Absolutely. Use `--dry-run` to validate schema changes, or pipe output directly to your migration runner.
+🔗  https://github.com/lxgicstudios ·  https://x.com/lxgicstudios
 
-**What about data migrations?**
-This tool handles schema DDL only. For data migrations (UPDATE statements, backfills), you'll need custom scripts.
+ like this? We have 100+ on our  github.com/lxgicstudios
 
-## License
 
-MIT
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
+
+ like this? We have 100+ on our  [github.com/lxgicstudios](https://github.com/lxgicstudios)
+
+
+
+
+
+
+ [github.com/LXGIC-Studios](https://github.com/lxgicstudios)
+
+
+- [npm Advanced SEO Guide](https://github.com/lxgicstudios/npm-seo-guide) - npm package optimization
+- [AI Search Optimization](https://github.com/lxgicstudios/ai-seo-guide) - AI-powered SEO strategies
+
+## 🚀 Built with ❤️ by LXGIC Studios
+
+> This tool is part of the [lxgic studios](https://github.com/lxgicstudios) collection of AI-powered developer tools. We specialize in creating intelligent automation solutions that help developers build faster, smarter, and more efficiently.
+
+
+**Discover more tools:** [lxgic studios GitHub](https://github.com/lxgicstudios)  
+**Follow us on ** [@lxgicstudios](https://twitter.com/lxgicstudios)  
+**Join our community:** [Discord Server](https://discord.gg/lxgicstudios)  
+
+## 📄 License
+
+MIT © 2025 LXGIC Studios. Built with ⚡ and AI.
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+
+<div align="center">
+  <p>
+    <a href="https://github.com/lxgicstudios/sponsor">
+      <img src="https://img.shields.io/badge/-Sponsor%20Us-%23EA4AAA?style=for-the-badge&logo=github&logoColor=white" alt="Sponsor LXGIC Studios">
+    </a>
+    <a href="https://twitter.com/lxgicstudios">
+      <img src="https://img.shields.io/badge/-Follow%20Us-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Follow LXGIC Studios">
+    </a>
+    <a href="https://discord.gg/lxgicstudios">
+      <img src="https://img.shields.io/badge/-Join%20Discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord">
+    </a>
+  </p>
+</div>
+
+---
+
+Built by [LXGIC Studios](https://github.com/lxgicstudios)
+
+🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
+
+💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/lxgicstudios](https://github.com/lxgicstudios)
 
 
 ---
 
-Built by [LXGIC Studios](https://github.com/LXGIC-Studios)
+**Built by [LXGIC Studios](https://lxgicstudios.com)**
 
 🔗 [GitHub](https://github.com/LXGIC-Studios) · [Twitter](https://x.com/lxgicstudios)
 
-💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/lxgicstudios](https://github.com/lxgicstudios)
+💡 Want more free tools like this? We have 100+ on our GitHub: github.com/LXGIC-Studios
+
+---
+
+**Built by [LXGIC Studios](https://lxgicstudios.com)**
+
+🔗 [GitHub](https://github.com/LXGIC-Studios) · [Twitter](https://x.com/lxgicstudios)
+
+💡 Want more free tools like this? We have 100+ on our GitHub: github.com/LXGIC-Studios

@@ -1,7 +1,7 @@
 {
   "name": "@lxgicstudios/ai-migrate",
   "version": "1.0.0",
-  "description": "Generate database migration SQL from schema diffs. Compare SQL schema files and produce ALTER TABLE statements for column changes, type changes, and index updates.",
+  "description": "AI-powered database migration generator - create schema changes with GPT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
@@ -15,27 +15,38 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "database-migration",
-    "sql",
-    "schema-diff",
+    "2025-standards",
+    "ai-2025",
+    "ai-powered",
     "alter-table",
-    "migration-generator",
-    "postgres",
-    "mysql",
-    "sqlite",
-    "rollback",
     "cli",
-    "devops",
     "database",
-    "sql-migration",
-    "schema-compare"
+    "database-migration",
+    "developer-productivity",
+    "devops",
+    "discoverability",
+    "generative-ai",
+    "llm-optimized",
+    "migration",
+    "migration-generator",
+    "modern-seo",
+    "mysql",
+    "optimization",
+    "performance",
+    "performance-optimization",
+    "postgres",
+    "rollback",
+    "schema-compare",
+    "seo",
+    "seo-2026",
+    "typescript"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
   "homepage": "https://github.com/LXGIC-Studios/ai-migrate#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/ai-migrate.git"
+    "url": "https://github.com/LXGIC-Studios/ai-migrate"
   },
   "bugs": {
     "url": "https://github.com/LXGIC-Studios/ai-migrate/issues"
