@@ -1,69 +1,63 @@
 {
-  "name": "@lxgicstudios/ai-migrate",
-  "version": "1.0.0",
-  "description": "AI-powered database migration generator - create schema changes with GPT",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "author": {
+    "name": "lxgic studios",
+    "email": "contact@lxgic.com",
+    "url": "https://lxgic.com"
+  },
   "bin": {
     "ai-migrate": "dist/index.js"
   },
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "npm run build"
-  },
-  "keywords": [
-    "2025-standards",
-    "ai-2025",
-    "ai-powered",
-    "alter-table",
-    "cli",
-    "database",
-    "database-migration",
-    "developer-productivity",
-    "devops",
-    "discoverability",
-    "generative-ai",
-    "llm-optimized",
-    "migration",
-    "migration-generator",
-    "modern-seo",
-    "mysql",
-    "optimization",
-    "performance",
-    "performance-optimization",
-    "postgres",
-    "rollback",
-    "schema-compare",
-    "seo",
-    "seo-2026",
-    "typescript"
-  ],
-  "author": "LXGIC Studios",
-  "license": "MIT",
-  "homepage": "https://github.com/LXGIC-Studios/ai-migrate#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-migrate"
-  },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/ai-migrate/issues"
+    "url": "https://github.com/lxgicstudios/ai-migrate/issues"
   },
-  "funding": {
-    "type": "github",
-    "url": "https://github.com/sponsors/LXGIC-Studios"
+  "description": "AI-powered database migration generator - create schema changes with GPT",
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
   },
   "engines": {
     "node": ">=18"
   },
+  "files": [
+    "dist"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "homepage": "https://github.com/lxgicstudios/ai-migrate#readme",
+  "keywords": [
+    "AI-optimized",
+    "AI-powered",
+    "ai-optimized",
+    "ai-powered",
+    "automation",
+    "best-practices",
+    "cli",
+    "developer-tools",
+    "performance",
+    "seo-tools",
+    "technical-seo",
+    "utility",
+    "web-optimization",
+    "2025-standards",
+    "modern-seo"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@lxgicstudios/ai-migrate",
   "publishConfig": {
     "access": "public",
     "provenance": true
   },
-  "devDependencies": {
-    "@types/node": "^25.2.2",
-    "typescript": "^5.9.3"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-migrate"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.0.0"
 }
