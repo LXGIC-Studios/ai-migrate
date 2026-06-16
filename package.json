@@ -8,7 +8,7 @@
     "ai-migrate": "dist/index.js"
   },
   "bugs": {
-    "url": "https://github.com/lxgicstudios/ai-migrate/issues"
+    "url": "https://github.com/lxgicstudios/npm-tools/issues"
   },
   "description": "AI-powered database migration generator - create schema changes with GPT",
   "devDependencies": {
@@ -25,26 +25,13 @@
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "homepage": "https://github.com/lxgicstudios/ai-migrate#readme",
+  "homepage": "https://github.com/lxgicstudios/npm-tools/tree/main/ai-migrate",
   "keywords": [
-    "2026-standards",
-    "modern-seo",
-    "lxgic",
-    "AI-optimized",
-    "AI-powered",
-    "agentic-automation",
-    "automation",
-    "best-practices",
-    "cli",
-    "dev-automation",
-    "developer-tools",
-    "performance",
-    "seo-tools",
-    "technical-seo",
-    "core-update-ready",
-    "google-ai-overviews",
-    "eeat-seo",
-    "june-2026-update"
+    "database-migration",
+    "schema-migration",
+    "prisma",
+    "knex",
+    "versioning"
   ],
   "license": "MIT",
   "main": "dist/index.js",
@@ -55,7 +42,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-migrate"
+    "url": "git+https://github.com/lxgicstudios/npm-tools.git",
+    "directory": "ai-migrate"
   },
   "scripts": {
     "build": "tsc",
