@@ -8,7 +8,7 @@
     "ai-migrate": "dist/index.js"
   },
   "bugs": {
-    "url": "https://github.com/lxgicstudios/npm-tools/issues"
+    "url": "https://github.com/LXGIC-Studios/npm-tools/issues"
   },
   "description": "AI-powered database migration generator - create schema changes with GPT",
   "devDependencies": {
@@ -25,13 +25,14 @@
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "homepage": "https://github.com/lxgicstudios/npm-tools/tree/main/ai-migrate",
+  "homepage": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-migrate",
   "keywords": [
     "database-migration",
     "schema-migration",
     "prisma",
     "knex",
-    "versioning"
+    "versioning",
+    "site-architecture"
   ],
   "license": "MIT",
   "main": "dist/index.js",
@@ -42,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lxgicstudios/npm-tools.git",
+    "url": "git+https://github.com/LXGIC-Studios/npm-tools.git",
     "directory": "ai-migrate"
   },
   "scripts": {
