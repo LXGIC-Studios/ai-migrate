@@ -32,7 +32,15 @@
     "prisma",
     "knex",
     "versioning",
-    "site-architecture"
+    "site-architecture",
+    "ai-search-optimization",
+    "generative-engine-optimization",
+    "geo",
+    "june-2026-core-update",
+    "faq-rich-results-removed",
+    "ai-overview-citation",
+    "structured-data-seo",
+    "llms-txt-seo"
   ],
   "license": "MIT",
   "main": "dist/index.js",
