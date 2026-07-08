@@ -8,9 +8,9 @@
     "ai-migrate": "dist/index.js"
   },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/npm-tools/issues"
+    "url": "https://github.com/LXGIC-Studios/ai-migrate/issues"
   },
-  "description": "AI-powered database migration generator - create schema changes with GPT",
+  "description": "Generate database migration SQL from schema diffs. AI-powered ALTER TABLE generation for PostgreSQL, MySQL, SQLite. Compare schemas and get safe migrations.",
   "devDependencies": {
     "@types/node": "^25.2.2",
     "typescript": "^5.9.3"
@@ -25,17 +25,36 @@
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "homepage": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-migrate",
+  "homepage": "https://github.com/LXGIC-Studios/ai-migrate",
   "keywords": [
+    "database",
+    "migration",
+    "sql",
+    "postgresql",
+    "mysql",
+    "sqlite",
+    "schema-diff",
+    "alter-table",
+    "ai",
+    "automation",
+    "cli",
+    "developer-tools",
+    "npx",
+    "typescript",
+    "nodejs",
+    "openai",
+    "anthropic",
+    "claude",
+    "cursor",
+    "gpt",
+    "copilot",
+    "devtools",
+    "vibe-coding",
     "database-migration",
     "schema-migration",
     "prisma",
     "knex",
-    "versioning",
-    "site-architecture",
-    "june-2026-core-update",
-    "seo-optimized",
-    "clawdbot"
+    "versioning"
   ],
   "license": "MIT",
   "main": "dist/index.js",
@@ -46,8 +65,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/npm-tools.git",
-    "directory": "ai-migrate"
+    "url": "git+https://github.com/LXGIC-Studios/ai-migrate.git"
   },
   "scripts": {
     "build": "tsc",
